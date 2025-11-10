@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, noml, nofollow">
+    <meta name="description" content="A little portfolio site of mine.">
+    <link rel="stylesheet" href="./index.css">
+    <title>Portfolio | Najya</title>
+    <link rel="icon" type="image/x-icon" href="./media/illustration/snail.png">
+</head>
+
+<body id = "top">
+    <div class="fixed-top-nav">
+        <nav>
+            <ul>
+                <li class="child-1"><a href="index.html">Najya's Portfolio</a></li>
+                <li class="child-2"><span id="emailText" onclick="copyText()">najya.job@pm.me</span></li>
+            </ul>
+        </nav>
+
+        <div class="tab">
+            <!-- <button class="tablinks" onclick="openTab(event, 'illustration')">Illustration & Animation</button> -->
+            <!-- <button class="tablinks" onclick="openTab(event, 'graphic-design')">Graphic Design</button> -->
+            <!-- <button class="tablinks" onclick="openTab(event, 'video-editing')">Video Editing</button> -->
+            <button href = "#top" class="tablinks" onclick="openTab(event, 'website')" id="defaultOpen">Website</button>
+            <button href = "#top" class="tablinks" onclick="openTab(event, 'prototype')" >UI Design</button>
+            <button href = "#top" class="tablinks" onclick="openTab(event, 'contact-me')">About Me</button>
+        </div>
+    </div>
+
+    <div class="content">
+        <!-- Retain. -->
+        <div id="website" class="tabcontent">
+            <!-- <h1>Website</h1> -->
+
+            <div class="row">
+                <div class="column">
+                    <a href="https://najya-mn.github.io/project-fabricjs-graphic-editor" target="_blank">
+                        <div class="child-website">
+                            <img loading = "lazy" src="./media/website/site-unleash_compressed.webp" alt="">
+
+                            <p>
+                                An online graphic design tool built with HTML, CSS, and Fabric.js (a JavaScript HTML5 canvas library).
+                                <br><br>
+                                Designed for non-technical users, the tool enables quick mockup creation for items like t-shirts and 
+                                signboards, bypassing the need for accounts on platforms like Canva.  
+                                <br><br>
+                                Users can create custom designs and export them in common image formats (PNG, JPEG) and even in PDF format.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="column">
+                    <a href="https://najya-mn.github.io/project-analog-clock/" target="_blank">
+                        <div class="child-website">
+                            <img loading = "lazy" src="./media/website/proj-analogClock_compressed.webp" alt="">
+
+                            <p>
+                                A simple 24 hour analog clock built with HTML, CSS, and JavaScript. 
+                                <br><br>
+                                I made this because I can't find any 24 hour analog clock in physical stores, and it doesn't
+                                seem like an online one exists either. So, I decided to make my own to fulfill my own needs.
+                            </p>
+                        </div>
+                    </a>
+
+                    <!-- <a href="https://rumirta.me/" target="_blank">
+                        <div class="child-website">
+                            <img loading = "lazy" src="./media/website/site-rumirta_compressed.webp" alt="">
+
+                            <p>
+                                My personal website, crafted with HTML, CSS, and a touch of JavaScript, 
+                                is a platform to share my creative works, including illustrations and animations, 
+                                with a focus on the creepy and unconventional. 
+                                <br><br>
+                                The site's design reflects my personal style and artistic vision.
+                            </p>
+                        </div>
+                    </a> -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Retain. -->
+        <div id="prototype" class="tabcontent">
+            <div class="content-prototype">
+                <div class="child-prototype">
+                    <p class="disclaimer">
+                        <b style="font-size: 20px;">Disclaimer: </b>
+                        
+                        <br> <br>
+
+                        <b>This UI design project was a conceptual exercise and not an official product of 
+                        Big Apple Donuts & Coffee. </b>
+
+                        <br><br>
+
+                        The design incorporates the brand's visual identity,
+                        including the logo, fonts, color schemes, and menu items, for educational and 
+                        illustrative purposes only.
+
+                        The project aims to demonstrate an understanding of UI/UX principles and their
+                        application in a real-world context.
+                        
+                        <br><br>
+
+                        The work presented here is a UI design for a <b>food ordering system</b>. 
+
+                        <br><br>
+
+                        <b>Due to the limitations of showcasing interactive prototypes in a static 
+                        portfolio format, only screenshots of the design are available.</b> 
+                        
+                        <br><br>
+                        The actual prototype was developed using Justinmind and featured interactive 
+                        elements such as clickable buttons and dropdown menus.
+                    </p>
+                </div>
+
+                <div class="child-prototype">
+                    <img loading="lazy" src="./media/ui-design/Customer/2.0 Client Main Menu@1x_compressed.webp" alt="">
+
+                    <p>
+                        This is the main menu that the customer will see when they first start using the Food Ordering System.
+                        <br><br>
+                        The main menu provides a clear overview of the three main categories: Donuts, Mini Donuts, and Beverages.
+                        <br><br>
+                        Navigation is facilitated by a home button, a back button, and a "My Order" button for viewing the current order.
+                    </p>
+                </div>
+
+                <div class="child-prototype">
+                    <img loading="lazy" src="./media/ui-design/Customer/3.1 Donuts@1x_compressed.webp" alt="">
+
+                    <p>
+                        Each category displays a visually appealing grid of products that displays the product name and its price.
+                        <br><br>
+                        Out-of-stock items are clearly indicated.
+                    </p>
+                </div>
+
+                <div class="child-prototype">
+                    <img loading="lazy" src="./media/ui-design/Customer/White Queen@1x_compressed.webp" alt="">
+
+                    <p>
+                        Customers can easily select desired items, specify quantity, and add them to their order.
+                        <br><br>
+                        A "Cancel" button allows users to easily discard individual item selections.
+                    </p>
+                </div>
+
+                <div class="child-prototype">
+                    <img loading="lazy" src="./media/ui-design/Customer/5.0 Client Menu Confirmation Before Payment@1x_compressed.webp" alt="">
+
+                    <p>
+                        The order summary screen displays a clear list of selected items and quantities.
+                        <br><br>
+                        Customers can easily remove items from the order using the trash icon.
+                        <br><br>
+                        A "Proceed to Payment" button initiates the checkout process (the specific payment flow was not designed in this phase).
+                        <br><br>
+                        A "Cancel Order" button allows users to discard the entire order.
+                    </p>
+                </div>
+
+                <div class="child-prototype">
+                    <img loading="lazy" src="./media/ui-design/Customer/6.0 Client Payment@1x_compressed.webp" alt="">
+
+                    <p>
+                        Customers can choose their preferred methods of payment, either by card, online banking, or paying at the counter.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Retain. -->
+        <div id="contact-me" class="tabcontent">
+            <!-- <h1>Contact Me</h1> -->
+
+            <div class="content-contact">
+                <div class="child-contact">
+                    <p>
+                        Hi, I'm Najya. I'm a Web Developer who's always in pursuit of 
+                        further developing my skills and knowledge in the field of web development.
+                    </p>
+                    <br>
+                    <p>
+                        Contact me by email at 
+                        <span id="emailText" onclick="copyText()">najya.job@pm.me</span>
+                    </p>                    
+                </div>
+            </div>
+
+            <div style="height: calc(90vh - 40px)"></div>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+
+    <footer>
+        Copyright &copy NAJYA.ME
+    </footer>
+</body>
+
+</html>

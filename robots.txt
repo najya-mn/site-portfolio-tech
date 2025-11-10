@@ -1,0 +1,7 @@
+# This file tells search engines and bots what they are allowed to see on your site.
+
+
+# Beep boop. Don't crawl my site, sire.
+
+User-agent: *
+Disallow: /
