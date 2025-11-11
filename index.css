@@ -273,6 +273,11 @@ b{
     font-size: 17px;
     padding: 10px;
   }
+
+  .child-video-exp iframe{
+    width: 350px;
+    height: 350px;
+  }
 }
 
 @media (max-width: 500px) {
