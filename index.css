@@ -27,7 +27,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	overflow-x: hidden;
+	/* overflow-x: hidden; */
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -87,14 +87,35 @@ body{
   z-index: 1;
   background-color: black;
 }
-nav{
+/* nav{
   height: 40px;
 }
+
 .tab{
   height: 50px;
+} */
+nav a{
+  color: black;
 }
 
-nav ul {
+.firstNav{
+  height: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+li{
+  margin: 10px;
+}
+.c1{
+  align-self: flex-start;
+}
+.c2{
+  align-self: flex-end;
+}
+
+/* nav ul {
   display: flex;
   align-items: center;
 }
@@ -124,9 +145,32 @@ li.child-2 a{
 }
 .tab {
   border: none;
+} */
+
+.secondNav{
+  display: flex;
+}
+.navLink{
+  flex-grow: 1;
+  margin: 0;
+  font-size: 17px;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+.navLink a{
+  display: block;
+  padding: 14px 16px;
+}
+.navLink.active{
+  border: 1px solid var(--secondary-color);
+  border-radius: 5px;
+  border-bottom: none;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  font-weight: bolder;
 }
 
-.tab button{
+/* .tab button{
   flex-grow: 1;
 }
 .tab button {
@@ -150,7 +194,7 @@ li.child-2 a{
   border-bottom: none;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
-}
+} */
 
 .content{
   margin-top: 85px;
