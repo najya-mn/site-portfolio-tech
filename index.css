@@ -87,13 +87,7 @@ body{
   z-index: 1;
   background-color: black;
 }
-/* nav{
-  height: 40px;
-}
 
-.tab{
-  height: 50px;
-} */
 nav a{
   color: black;
 }
@@ -114,38 +108,6 @@ li{
 .c2{
   align-self: flex-end;
 }
-
-/* nav ul {
-  display: flex;
-  align-items: center;
-}
-
-nav ul li {
-  margin: 10px;
-}
-
-li.child-1 {
-  flex-grow: 1;
-  text-align: left;
-  min-width: 20%;
-}
-
-
-li.child-2 {
-  flex-grow: 3;
-  text-align: right;
-}
-
-li.child-2 a{
-  margin-right: 10px;
-}
-
-.tab{
-  display: flex;
-}
-.tab {
-  border: none;
-} */
 
 .secondNav{
   display: flex;
@@ -169,32 +131,6 @@ li.child-2 a{
   border-bottom-left-radius: 0;
   font-weight: bolder;
 }
-
-/* .tab button{
-  flex-grow: 1;
-}
-.tab button {
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
-  font-size: 17px;
-  background-color: var(--primary-color);
-}
-
-.tab button:hover {
-  background-color: black;
-}
-
-.tab button.active {
-  background-color: var(--secondary-color);
-  border: 1px solid var(--secondary-color);
-  border-radius: 5px;
-  border-bottom: none;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-} */
 
 .content{
   margin-top: 85px;
@@ -265,13 +201,8 @@ b{
   font-weight: bold;
 }
 
-
-
-
 .row {
   display: flex;
-  /* flex-wrap: wrap;
-  justify-content: space-around; */
   flex-direction: column;
   align-items: center;
 }
