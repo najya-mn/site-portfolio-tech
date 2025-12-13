@@ -52,7 +52,6 @@ table {
 }
 
 a{
-	white-space: nowrap;
 	text-decoration-line: none;
 	display: inline;
 }
@@ -246,11 +245,20 @@ b{
   .content{
     margin-top: 107px;
   }
+
+  .secondNav{
+    flex-wrap: wrap;
+  }
+
+  .content{
+    background-color: blue;
+    margin-top: 140px;
+  }
 }
 
 @media (max-width: 400px) {
   .content{
-    margin-top: 107px;
+    margin-top: 190px;
   }
 }
 
