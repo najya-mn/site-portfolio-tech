@@ -17,7 +17,7 @@
     <meta name="robots" content="noindex, noml, nofollow">
     <meta name="description" content="A little portfolio site of mine.">
     <link rel="stylesheet" href="./index.css">
-    <title>Portfolio | Najya</title>
+    <title>About Me | Najya</title>
     <link rel="icon" type="image/x-icon" href="./media/illustration/snail_compressed.webp">
 </head>
 
@@ -32,72 +32,41 @@
 
         <nav>
             <ul class="secondNav">
-                <li class="navLink active"><a href="website.html">Website</a></li>
+                <li class="navLink active"><a href="index.html">About Me</a></li>
+                <li class="navLink"><a href="website.html">Website</a></li>
                 <li class="navLink"><a href="ui-design.html">UI Design</a></li>
                 <li class="navLink"><a href="graphic-design.html">Graphic Design</a></li>
                 <li class="navLink"><a href="video-editing.html">Video Editing</a></li>
-                <li class="navLink"><a href="about-me.html">About Me</a></li>
             </ul>
         </nav>
     </div>
 
     <div class="content">
-        <!-- Retain. -->
-        <div id="website" class="tabcontent">
-            <!-- <h1>Website</h1> -->
+        <div id="contact-me" class="tabcontent">
+            <!-- <h1>Contact Me</h1> -->
 
-            <div class="row">
-                <div class="column">
-                    <a href="https://najya-mn.github.io/cst688-fabricjs-project-2024/" target="_blank">
-                        <div class="child-website">
-                            <img loading="lazy" src="./media/website/site-unleash_compressed.webp" alt="">
+            <div class="content-contact">
+                <div class="child-contact">
+                    <p>
+                        Hi, I'm Najya. I do web development, graphic design, video editing, illustration and animations
+                        sometimes.
+                    </p>
 
-                            <p>
-                                An online graphic design tool built with HTML, CSS, and Fabric.js (a JavaScript HTML5
-                                canvas library).
-                                <br><br>
-                                Designed for non-technical users, the tool enables quick mockup creation for items like
-                                t-shirts and
-                                signboards, bypassing the need for accounts on platforms like Canva.
-                                <br><br>
-                                Users can create custom designs and export them in common image formats (PNG, JPEG) and
-                                even in PDF format.
-                            </p>
-                        </div>
-                    </a>
-                </div>
+                    <br>
+                    <p>Github Repository: <a href="https://github.com/najya-mn" target="_blank">Link</a></p>
+                    <p>LinkedIn Profile: <a href="https://www.linkedin.com/in/najya-mohd-najib" target="_blank">Link</a></p>
+                    <br>
 
-                <div class="column">
-                    <a href="https://najya-mn.github.io/project-24hr-analog-digital-clock/" target="_blank">
-                        <div class="child-website">
-                            <img loading="lazy" src="./media/website/proj-analogClock_compressed.webp" alt="">
-
-                            <p>
-                                A simple 24 hour analog clock built with HTML, CSS, and JavaScript.
-                                <br><br>
-                                I made this because I can't find any 24 hour analog clock in physical stores, and it
-                                doesn't
-                                seem like an online one exists either. So, I decided to make my own to fulfill my own
-                                needs.
-                            </p>
-                        </div>
-                    </a>
-
-                    <!-- <a href="https://rumirta.me/" target="_blank">
-                        <div class="child-website">
-                            <img loading = "lazy" src="./media/website/site-rumirta_compressed.webp" alt="">
-
-                            <p>
-                                My personal website, crafted with HTML, CSS, and a touch of JavaScript, 
-                                is a platform to share my creative works, including illustrations and animations, 
-                                with a focus on the creepy and unconventional. 
-                                <br><br>
-                                The site's design reflects my personal style and artistic vision.
-                            </p>
-                        </div>
-                    </a> -->
+                    <p><a href="https://rumirta.me" target="_blank">View my personal creative works here.</a></p>
+                    <br>
+                    <p>
+                        Contact me by email at
+                        <span id="emailText" onclick="copyText()">najya.job@pm.me</span>
+                    </p>
                 </div>
             </div>
+
+            <div style="height: calc(90vh - 40px)"></div>
         </div>
     </div>
 
