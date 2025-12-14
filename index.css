@@ -255,7 +255,3 @@ body{
 .child-1 a{
   color: black;
 }
-
-.child-website:hover{
-  box-shadow: 3px 3px 6px 3px grey;
-}
